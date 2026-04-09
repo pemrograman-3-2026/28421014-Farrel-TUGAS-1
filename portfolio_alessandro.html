@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alessandro Farrel — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      margin: 0;
+      padding: 40px 16px;
+    }
+
+    .kotakan-kartu {
+      background: white;
+      max-width: 600px;
+      margin: 0 auto;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 2px 16px rgba(0,0,0,.08);
+    }
+
+    .header {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 32px;
+    }
+
+    .header img {
+      width: 90px;
+      height: 90px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 0 0 4px;
+    }
+
+    .header p {
+      font-size: 13px;
+      color: #666;
+      margin: 0 0 10px;
+    }
+
+    .kontak {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .kontak a, .kontak span {
+      font-size: 12px;
+      color: #444;
+      background: #f0f0f0;
+      padding: 3px 9px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 24px 0;
+    }
+
+    h2 {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: #999;
+      margin: 0 0 14px;
+    }
+
+    .tentang-gwe {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.7;
+    }
+
+    .pengalaman-item {
+      margin-bottom: 18px;
+    }
+
+    .pengalaman-item:last-child { margin-bottom: 0; }
+
+    .pengalaman-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .pengalaman-bidang {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .pengalaman-tanggal {
+      font-size: 12px;
+      color: #999;
+    }
+
+    .pengalaman-tempat {
+      font-size: 12px;
+      color: #888;
+      margin: 2px 0 6px;
+    }
+
+    .pengalaman-item ul {
+      margin: 0;
+      padding-left: 16px;
+    }
+
+    .pengalaman-item ul li {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .tag {
+      font-size: 12px;
+      background: #f0f0f0;
+      color: #444;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 480px) {
+      .kotakan-kartu { padding: 24px; }
+      .header { flex-direction: column; align-items: flex-start; gap: 16px; }
+    }
+  </style>
+</head>
+<body>
+<div class="kotakan-kartu">
+
+  <div class="header">
+    <img src="PAS FOTO (BIRU).jpg" alt="Alessandro"/>
+    <div>
+      <h1>Alessandro Farrel Gerrard Wijaya</h1>
+      <p>Cybersecurity Enthusiast</p>
+      <div class="kontak">
+        <a href="tel:+6285788390480">+62 857-8839-0480</a>
+        <a href="mailto:farrelalessandro@gmail.com">farrelalessandro@gmail.com</a>
+        <a href="https://linkedin.com/in/alessandro-wijaya" target="_blank">LinkedIn</a>
+        <span>Bandar Lampung</span>
+      </div>
+    </div>
+  </div>
+
+  <hr/>
+
+  <h2>Tentang</h2>
+  <p class="tentang-gwe">Mahasiswa Teknik Informatika dengan ketertarikan kuat di bidang Web Application Security dan Ethical Hacking. Aktif berlatih di PortSwigger Web Security Academy, Auditing dan kompetisi CTF.</p>
+
+  <hr/>
+
+  <h2>Pendidikan</h2>
+  <div class="pengalaman-item">
+    <div class="pengalaman-top">
+      <span class="pengalaman-bidang">S1 Teknik Informatika</span>
+      <span class="pengalaman-tanggal">2024 – 2028</span>
+    </div>
+    <div class="pengalaman-tempat">Universitas Bandar Lampung &nbsp;·&nbsp; IPK 3.9 / 4.0</div>
+  </div>
+
+  <hr/>
+
+  <h2>Pengalaman</h2>
+
+  <div class="pengalaman-item">
+    <div class="pengalaman-top">
+      <span class="pengalaman-bidang">Cybersecurity Assistant</span>
+      <span class="pengalaman-tanggal">Nov 2025 – Sekarang</span>
+    </div>
+    <div class="pengalaman-tempat">Universitas Bandar Lampung</div>
+    <ul>
+      <li>Koordinasi tim IT Consultant & diskusi keamanan siber</li>
+      <li>Mendukung kegiatan mentoring teknis</li>
+    </ul>
+  </div>
+
+  <div class="pengalaman-item">
+    <div class="pengalaman-top">
+      <span class="pengalaman-bidang">Trainer – Precollege Program</span>
+      <span class="pengalaman-tanggal">Juli 2025</span>
+    </div>
+    <div class="pengalaman-tempat">Universitas Bandar Lampung</div>
+    <ul>
+      <li>Melatih computational thinking untuk mahasiswa baru</li>
+    </ul>
+  </div>
+
+  <div class="pengalaman-item">
+    <div class="pengalaman-top">
+      <span class="pengalaman-bidang">Sound System Operator</span>
+      <span class="pengalaman-tanggal">2024 – Sekarang</span>
+    </div>
+    <div class="pengalaman-tempat">Vihara Taokwan Suci Mulia</div>
+    <ul>
+      <li>Operasikan audio & OBS Studio untuk acara online/offline</li>
+    </ul>
+  </div>
+
+  <div class="pengalaman-item">
+    <div class="pengalaman-top">
+      <span class="pengalaman-bidang">Crew Harian Lepas</span>
+      <span class="pengalaman-tanggal">2024 – 2025</span>
+    </div>
+    <div class="pengalaman-tempat">Domino's Pizza, Bandar Lampung</div>
+    <ul>
+      <li>Operasional dapur & layanan pelanggan</li>
+    </ul>
+  </div>
+
+  <hr/>
+
+  <h2>Keahlian</h2>
+  <div class="tags">
+    <span class="tag">Web Security</span>
+    <span class="tag">SQLi · XSS · CSRF</span>
+    <span class="tag">OWASP WSTG</span>
+    <span class="tag">Burp Suite</span>
+    <span class="tag">Nmap</span>
+    <span class="tag">Python</span>
+    <span class="tag">JavaScript</span>
+    <span class="tag">React.js</span>
+    <span class="tag">MySQL</span>
+    <span class="tag">Kali Linux</span>
+    <span class="tag">OBS Studio</span>
+  </div>
+
+</div>
+</body>
+</html>
